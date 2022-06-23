@@ -1,7 +1,8 @@
 package com.cdi.softdev.solid.srp.graphicsengine.elements.goodcode;
 
+import com.cdi.softdev.solid.srp.graphicsengine.colorparser.ColorParser;
 import com.cdi.softdev.solid.srp.graphicsengine.otherscode.IDevice;
-import com.pfizer.colorparser.ColorParser;
+
 
 public class GoodRenderer implements  IRenderer{
     private final ColorParser colorParser;

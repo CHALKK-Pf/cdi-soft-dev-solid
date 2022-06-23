@@ -1,9 +1,10 @@
 package com.cdi.softdev.solid.srp.graphicsengine.elements.badcode;
 
 import com.cdi.softdev.solid.srp.graphicsengine.bezier.BezierSpline;
+import com.cdi.softdev.solid.srp.graphicsengine.colorparser.ColorParser;
 import com.cdi.softdev.solid.srp.graphicsengine.math.SuperSmartMath;
 import com.cdi.softdev.solid.srp.graphicsengine.otherscode.IDevice;
-import com.pfizer.colorparser.ColorParser;
+
 
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -61,6 +62,7 @@ public class ShapeElement {
 
     public void render(IDevice device)
     {
+
         device.push();
         this.splines.forEach((spl)->{
             device.addSpline(spl.getSpline());
