@@ -1,9 +1,8 @@
 package com.cdi.softdev.solid.interfacesegragation.mediaplayer.baddesign;
 
-import com.cdi.softdev.solid.interfacesegragation.mediaplayer.VideoUnsupportedException;
-
 public class WinampMediaPlayer implements MediaPlayer {
 
+  @Override
   // Play video is not supported in Winamp player
   public void playVideo() {
     throw new VideoUnsupportedException();
