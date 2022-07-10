@@ -1,4 +1,4 @@
-package com.pfizer.colorparser;
+package com.cdi.softdev.solid.srp.graphicsengine.colorparser;
 
 public class ColorParser {
 
