@@ -14,6 +14,6 @@ public class DivMediaPlayer implements MediaPlayer {
 
   @Override
   public void displayImage() {
-    System.out.println(" Showing an image of  .... Interface Segragation Principle..........");
+    System.out.println(" Showing an image of  .... Interface Segregation Principle..........");
   }
 }
